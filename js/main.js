@@ -15,7 +15,7 @@ const circle = ()=>{
             if(textvalue.toUpperCase().indexOf(inputId) > -1){
                 products[i].style.display = ""
             }else{
-                products[i].style.display = "none"
+                products[i].style.display = "none";
             }
         }
 
